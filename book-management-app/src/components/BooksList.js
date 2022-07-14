@@ -5,6 +5,7 @@ import BooksContext from '../context/BooksContext';
 
 const BooksList = () => {
 	const { books, setBooks } = useContext(BooksContext);
+	
 	const handleRemoveBook = id => {
 		// Keep only books that do not match the passed id.
 		setBooks(books.filter(book => book.id !== id));
