@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghost\\Git\\Udemy\\Restore_v2\\API\\API.csproj": {}
+    "C:\\Users\\ghost\\Git\\Udemy\\ReStore_v2\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghost\\Git\\Udemy\\Restore_v2\\API\\API.csproj": {
+    "C:\\Users\\ghost\\Git\\Udemy\\ReStore_v2\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghost\\Git\\Udemy\\Restore_v2\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\ghost\\Git\\Udemy\\ReStore_v2\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ghost\\Git\\Udemy\\Restore_v2\\API\\API.csproj",
+        "projectPath": "C:\\Users\\ghost\\Git\\Udemy\\ReStore_v2\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghost\\Git\\Udemy\\Restore_v2\\API\\obj\\",
+        "outputPath": "C:\\Users\\ghost\\Git\\Udemy\\ReStore_v2\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
