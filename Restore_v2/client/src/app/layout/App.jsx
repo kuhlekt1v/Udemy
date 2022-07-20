@@ -8,6 +8,11 @@ import {
 
 import Catalog from '../../components/catalog/Catalog';
 import Header from './Header';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from '../../components/home/HomePage';
+import AboutPage from '../../components/about/AboutPage';
+import ContactPage from '../../components/contact/ContactPage';
+import ProductDetails from '../../components/catalog/ProductDetails';
 
 function App() {
 	const [darkMode, setDarkMode] = useState(false);
@@ -32,7 +37,13 @@ function App() {
 			<CssBaseline />
 			<Header darkMode={darkMode} handleThemeChange={handleThemeChange} />
 			<Container>
-				<Catalog />
+				<Routes>
+					<Route path='/' element={<HomePage />} exact={true} />
+					<Route path='/catalog' element={<Catalog />} />
+					<Route path='/catalog/:id' element={<ProductDetails />} />
+					<Route path='/about' element={<AboutPage />} />
+					<Route path='/contact' element={<ContactPage />} />
+				</Routes>
 			</Container>
 		</ThemeProvider>
 	);

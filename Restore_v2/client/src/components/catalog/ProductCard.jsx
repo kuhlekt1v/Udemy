@@ -8,6 +8,7 @@ import {
 	CardHeader,
 	Avatar,
 } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {
 	return (
@@ -43,7 +44,9 @@ export default function ProductCard({ product }) {
 			</CardContent>
 			<CardActions>
 				<Button size='small'>Add to Card</Button>
-				<Button size='small'>View</Button>
+				<Button size='small' component={Link} to={`/catalog/${product.id}`}>
+					View
+				</Button>
 			</CardActions>
 		</Card>
 	);
