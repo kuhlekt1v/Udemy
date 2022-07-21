@@ -48,7 +48,7 @@ export default function Header({ darkMode, handleThemeChange }) {
 						component={NavLink}
 						to='/'
 						sx={navStyles}
-						exact
+						exact='true'
 					>
 						RE-STORE
 					</Typography>
